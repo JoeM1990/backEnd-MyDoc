@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 import lombok.Data;
 
-
 @Data
 public class BodyResponse<T> {
     @JsonInclude(Include.NON_EMPTY)
