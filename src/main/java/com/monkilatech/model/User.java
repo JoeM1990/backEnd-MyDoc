@@ -26,10 +26,7 @@ public class User {
     private String username;
 
     @JsonInclude(Include.NON_EMPTY)
-    private String password;
-
-    @JsonInclude(Include.NON_EMPTY)
-    private String phoneNumber;
+    private String email;
 
     @JsonInclude(Include.NON_EMPTY)
     private String email;
@@ -37,6 +34,5 @@ public class User {
     @JsonInclude(Include.NON_EMPTY)
     private String photo;
 
-    @JsonInclude(Include.NON_EMPTY)
-    private String typeCompte;
+   
 }
